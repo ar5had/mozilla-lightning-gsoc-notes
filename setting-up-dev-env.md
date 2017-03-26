@@ -22,9 +22,10 @@
 
 11. If you are interested in calendar project, everything in `calendar/` directory is used for Lightning. The layout is somewhat historical where it still had the split between Sunbird and Lightning, that is why you see `calendar/lightning/` directory. You should check out the files in `calendar/base/public`, they describe the basic objects used in Lightning. The frontend is mostly in `base/content`. The backend is mostly in `base/src`. Daily is the development name for thunderbird, maybe it is similar to what `Chromium` is for 'Google Chrome'.
 
-12. If you are interested in Lightning project, then enable it in extension tab and restart or rerun the build by './mozilla/mach run'.
+12. If you are interested in Lightning project, then enable it in extension tab and restart or rerun the build by './mozilla/mach run'. You can goto `/calendar/base/public` and checkout the idl files to know what objects are used and how they work. IDL files are basically definitions or description files. Most important are calICalendar, calIItemBase, calIEvent, calITodo.
 
 ### Some helpful links
-* [Mercurial Help] (https://developer.mozilla.org/en-US/docs/Mercurial) 
+* [Projects Page](https://wiki.mozilla.org/Community:SummerOfCode17#Calendar)
+* [Mercurial Help](https://developer.mozilla.org/en-US/docs/Mercurial) 
 * [Working with Mozilla Source Code ](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code)
-* [Getting mozilla source code] (https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Mercurial)
+* [Getting mozilla source code](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Mercurial)
