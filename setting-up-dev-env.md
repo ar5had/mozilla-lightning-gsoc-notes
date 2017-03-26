@@ -1,10 +1,10 @@
 ## Building dev environment for Thunderbird
 
-1. Goto [Simple Thunderbird Build](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Simple_Thunderbird_build)
+1. Goto [Simple Thunderbird Build](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Simple_Thunderbird_build).
 
 2. Build prequisites. If they somehow don't work and you dont succesfully install the prequisites, don't worry and just move on.
 
-3. Clone the comm-central repo. The svn client used by mozilla for this project is Mercurial so make sure what command you are running. Goto [Mercurial Help] (https://developer.mozilla.org/en-US/docs/Mercurial) for more info about Mercurial.
+3. Clone the comm-central repo. The svn client used by mozilla for this project is Mercurial so make sure what command you are running. Goto [Mercurial Help](https://developer.mozilla.org/en-US/docs/Mercurial) for more info about Mercurial.
 
 4. Get into the comm-central directory and run `python client.py setup`.
 
