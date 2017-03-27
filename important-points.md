@@ -2,6 +2,8 @@
 
 * Prefer to message on mailing list or public group then personal message. 
 
+* Start a new bug if the bug that you have found is already marked resolved. 
+
 * Concentrate on the process instead of the code. Link some of the best written code to your proposal and obviously best looking work as well.
 
 * For the gsoc process, it would be good to see how you would do the planning. This includes identifying components that are easy to work upon and components having least dependencies.
@@ -17,3 +19,7 @@
 * Write down your thoughts on what you are changing and why.
 
 * Feel free to ask community and mentor's feedback at different stages while you are creating your application.
+
+* If you get remote xul warning, then set dom.allow_XUL_XBL_for_file to true. You can set it by going to EDIT > PREFERENCES > ADVANCED > CONFIG EDITOR
+
+* To do the same thing in browser, goto `about:config` and search for `dom.allow_XUL_XBL_for_file` if found set it true else right click and add new boolean.
