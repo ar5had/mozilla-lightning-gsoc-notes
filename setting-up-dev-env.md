@@ -1,10 +1,10 @@
 ## Building dev environment for Thunderbird
 
-1. Goto [Simple Thunderbird Build](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Simple_Thunderbird_build)
+1. Goto [Simple Thunderbird Build](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Simple_Thunderbird_build).
 
 2. Build prequisites. If they somehow don't work and you dont succesfully install the prequisites, don't worry and just move on.
 
-3. Clone the comm-central repo. The svn client used by mozilla for this project is Mercurial so make sure what command you are running. Goto [Mercurial Help] (https://developer.mozilla.org/en-US/docs/Mercurial) for more info about Mercurial.
+3. Clone the comm-central repo. The svn client used by mozilla for this project is Mercurial so make sure what command you are running. Goto [Mercurial Help](https://developer.mozilla.org/en-US/docs/Mercurial) for more info about Mercurial.
 
 4. Get into the comm-central directory(`cd comm-central`) and run `python client.py setup`.
 
@@ -24,7 +24,7 @@
 
 12. If you are interested in Lightning project, then enable it in extension tab and restart or rerun the build by './mozilla/mach run'. You can goto `/calendar/base/public` and checkout the idl files to know what objects are used and how they work. IDL files are basically definitions or description files. Most important are calICalendar, calIItemBase, calIEvent, calITodo.
 
-### Some helpful links
+### Some useful links
 * [Projects Page](https://wiki.mozilla.org/Community:SummerOfCode17#Calendar)
 * [Mercurial Help](https://developer.mozilla.org/en-US/docs/Mercurial) 
 * [Working with Mozilla Source Code ](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code)
