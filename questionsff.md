@@ -1,0 +1,1 @@
+1. On this [page](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Overlays#Overlays_and_ID_Attributes), `file_menu` and `file-menu` id creates confusion. Donno how merging is happening reading the example twice.
