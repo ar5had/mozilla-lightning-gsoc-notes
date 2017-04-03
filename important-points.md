@@ -25,3 +25,7 @@
 * To do the same thing in browser, goto `about:config` and search for `dom.allow_XUL_XBL_for_file` if found set it true else right click and add new boolean.
 
 * Weekly basis is pretty broad for deliverables, it would be best to plan deliverables using the points system. Calculate how many weeks you have, 5 days per week, 2 points per day. Then you know how many points you have for planning. Then break down each task into small units, not more than 5 points
+
+* Set `set.calendar.item. something` to true to get events in tab.
+
+* Set `calendar.item.useNewItemUI` to open html version of event dialog. 
