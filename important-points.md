@@ -39,3 +39,5 @@
 * [Frontend Mozilla React Redux etc](https://dxr.mozilla.org/comm-central/source/mozilla/devtools/docs/frontend)
 
 * [Mockup N](https://wiki.mozilla.org/images/1/16/Event-in-tab-mockup-n.svg)
+
+* To make sure you dont use same obj-dir files for fx and tb- by adding `mk_add_options MOZ_OBJDIR=path/to/your/obj-dir`(use absolute paths) to mozconfig.
