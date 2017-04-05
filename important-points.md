@@ -41,3 +41,9 @@
 * [Mockup N](https://wiki.mozilla.org/images/1/16/Event-in-tab-mockup-n.svg)
 
 * To make sure you dont use same obj-dir files for fx and tb- by adding `mk_add_options MOZ_OBJDIR=path/to/your/obj-dir`(use absolute paths) to mozconfig.
+
+* If you don't include `--enable-application=mail`, then it will default to `--enable-application=browser` in mozconfig
+
+* The right thing to do for building Firefox is cd mozilla; ./mach build because that way it will just see the mozilla-central directory and not know of comm-central at all.
+
+* I think that quote from the thunderbird build page is slightly wrong, I think it will eventually bail with an error if you omit that line because it is not finding things
