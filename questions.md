@@ -19,3 +19,5 @@ Q6. Should I have to use ES6 or ES5 syntax?
 Q7. How keyboard shortcuts will trigger react componets(access keys)?
 
 Q8. What about css and what font-size and all other stuff of styling?
+
+Q9. What format of data is going to be input and output from dialog boxes and how will they integrate with react/redux?
