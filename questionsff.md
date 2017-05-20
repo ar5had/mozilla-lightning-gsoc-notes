@@ -1,1 +1,2 @@
-1. On this [page](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Overlays#Overlays_and_ID_Attributes), `file_menu` and `file-menu` id creates confusion. Donno how merging is happening reading the example twice.
+1. On this [page](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Tutorial/Manifest_Files), goto manifest file section. how overlay are used in browser.manifest? What does this line mean - ` Extensions will make the most use of overlays, since they merge their UI with the browser UI.`?
+
