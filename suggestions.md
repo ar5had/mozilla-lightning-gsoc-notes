@@ -11,3 +11,5 @@
 * Reading this [xul docs page](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Tutorial/Manifest_Files), manifest file should have `.manifest` extension but the manifest file in `comm-central` is `jar.mn`. If you read manifest files section, you might assume that manifest files are supposed to be located in `chrome` named directory.
 
 *  There are so many things(sometimes version of things) with same name for e.g, manifest files format, chrome etc. which creates confusion atleast for a novice or beginner.
+
+* The instruction on thunderbird build page about enable calendar line is slightly wrong- [link](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Simple_Thunderbird_build#Build_configuration).

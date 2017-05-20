@@ -25,3 +25,25 @@
 * To do the same thing in browser, goto `about:config` and search for `dom.allow_XUL_XBL_for_file` if found set it true else right click and add new boolean.
 
 * Weekly basis is pretty broad for deliverables, it would be best to plan deliverables using the points system. Calculate how many weeks you have, 5 days per week, 2 points per day. Then you know how many points you have for planning. Then break down each task into small units, not more than 5 points
+
+* Set `set.calendar.item. something` to true to get events in tab.
+
+* Set `calendar.item.useNewItemUI` to open html version of event dialog. 
+
+* The good thing about dialogs is that there is not much to integrate, as most things can happen separate. Event dialog is to create a xul framework with an iframe that contains the html. postMessage was used to exchange messages from xul to HTML
+
+* With a similar approach you could easily develop the html outside of Lightning with the tools you are comfortable with, abstracting everything that needs XUL interaction using postMessage. You could create a simple container so that you can develop even this with your standard html, then just drop in the html into the xul container.
+
+* [Event in Tab](https://wiki.mozilla.org/Calendar:Event_in_a_Tab/documentation)
+
+* [Frontend Mozilla React Redux etc](https://dxr.mozilla.org/comm-central/source/mozilla/devtools/docs/frontend)
+
+* [Mockup N](https://wiki.mozilla.org/images/1/16/Event-in-tab-mockup-n.svg)
+
+* To make sure you dont use same obj-dir files for fx and tb- by adding `mk_add_options MOZ_OBJDIR=path/to/your/obj-dir`(use absolute paths) to mozconfig.
+
+* If you don't include `--enable-application=mail`, then it will default to `--enable-application=browser` in mozconfig
+
+* The right thing to do for building Firefox is cd mozilla; ./mach build because that way it will just see the mozilla-central directory and not know of comm-central at all.
+
+* I think that quote from the thunderbird build page is slightly wrong, I think it will eventually bail with an error if you omit that line because it is not finding things
