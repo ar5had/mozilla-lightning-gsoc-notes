@@ -13,3 +13,5 @@
 *  There are so many things(sometimes version of things) with same name for e.g, manifest files format, chrome etc. which creates confusion atleast for a novice or beginner.
 
 * The instruction on thunderbird build page about enable calendar line is slightly wrong- [link](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Simple_Thunderbird_build#Build_configuration).
+
+* [line-49](https://dxr.mozilla.org/comm-central/source/calendar/base/content/dialogs/calendar-properties-dialog.js#49), [line-34](https://dxr.mozilla.org/comm-central/source/calendar/base/content/dialogs/calendar-properties-dialog.js#34) and probably many more lines doesn't need to check via equality operator.
