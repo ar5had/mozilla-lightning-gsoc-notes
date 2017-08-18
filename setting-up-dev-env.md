@@ -10,7 +10,7 @@
 
 5. Create a new file mozcconfig and add `ac_add_options --enable-application=mail` if you want thunderbird to build else firefox will build.
 
-6. Add `ac_add_options --enable-calendar` to the next line in the mozconfig file if you want to enable calendar(Lightning is the project name). 
+6. Add `ac_add_options --enable-calendar` to the next line in the mozconfig file if you want to enable calendar(Lightning is the project name). If you get stylo error on `mach build` then add `ac_add_options --disable-stylo` to mozconfig too.
 
 7. Several mozilla project use `mach` as command line tool to do development stuff so make sure you know its command. I wasted nearly 6 hours just my missing the `mach clobber` command. BTW this command removes the obj-dir files or build files so that you can start a fresh build.
 
