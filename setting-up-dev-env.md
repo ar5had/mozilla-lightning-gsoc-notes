@@ -24,8 +24,11 @@
 
 12. If you are interested in Lightning project, then enable it in extension tab and restart or rerun the build by './mozilla/mach run'. You can goto `/calendar/base/public` and checkout the idl files to know what objects are used and how they work. IDL files are basically definitions or description files. Most important are calICalendar, calIItemBase, calIEvent, calITodo.
 
+13. Run clobber command when build error happens. Then run build command again and if the error continues to exist then ask for help!!!
+
 ### Some useful links
 * [Projects Page](https://wiki.mozilla.org/Community:SummerOfCode17#Calendar)
 * [Mercurial Help](https://developer.mozilla.org/en-US/docs/Mercurial) 
 * [Working with Mozilla Source Code ](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code)
 * [Getting mozilla source code](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Mercurial)
+* [MozillaBuild](https://wiki.mozilla.org/MozillaBuild)
